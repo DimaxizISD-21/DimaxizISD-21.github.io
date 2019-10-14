@@ -1,0 +1,280 @@
+@media (max-width: 991px)
+    // HEADER
+    .header
+        &__official
+            display: none
+    // PROMO
+    .promo
+        &__wrapper
+            margin-top: 50px
+
+    // ADVANTAGES
+    .advantages
+        &__item        
+            &__descr
+                margin-bottom: 50px
+
+    
+    // CAROUSEL
+    .carousel
+        &__inner
+            width: 650px
+    
+    // CATALOG
+    .catalog
+        padding-bottom: 60px
+    
+    // REVIEWS
+    .reviews
+        &__descr
+            font-size: 14px
+
+@media (max-width: 767px)
+    // PROMO
+    .promo
+        &__header
+
+    // TITLE
+    .title
+        font-size: 28px
+        &_left
+            text-align: center
+            margin-bottom: 30px
+    
+    // CONSULTATION
+    .consultation
+        padding: 70px 0
+        min-height: 570px
+        &__descr
+            font-size: 18px
+            text-align: center
+            br
+                display: none
+
+    // CAROUSEL
+    .carousel
+        &__inner
+            width: 450px
+
+    // CATALOG
+    .catalog
+        padding-bottom: 50px
+        &__tabs
+            margin-top: 40px
+        &__content
+            justify-content: center
+        
+    // REVIEWS
+    .reviews
+        &__item
+            flex-direction: column
+            margin-top: 50px
+            &:nth-child(2)
+                margin-top: 50px
+        &__img
+            width: 145px
+            height: 145px
+        &__info
+            margin: 0
+            text-align: left
+        &__username
+            text-align: center
+            margin-top: 17px
+        &__count
+            text-align: center
+        &__descr
+            margin-top: 15px
+        
+    // FOOTER
+    .footer
+        height: 400px
+        iframe
+            height: 100%
+            width: 100%
+        &__social-item
+            height: 40px
+            width: 40px
+            img
+                height: 20px
+        &__info
+            width: 332px //372px
+            height: 170px //186px //204px
+            padding: 22px 20px //30px 20px  
+        &__addr
+            font-size: 17px
+            margin-bottom: 14px
+        &__phone
+            font-size: 17px
+            margin-bottom: 20px //26px
+        
+    // MODAL
+    .modal
+        label.error
+            font-size: 14px
+
+
+
+@media (max-width: 575px)
+    // HEADER
+    .header
+        &__logo
+            margin: 0 auto
+        &__contacts
+            margin: 0 auto
+            margin-top: 20px
+            &__phone
+                font-size: 22px
+
+    // PROMO
+    .promo
+        padding: 21px 0 30px
+        &__header
+            justify-content: center
+            font-size: 26px
+        &__subheader
+            font-size: 15px
+        &__wrapper
+            margin-top: 30px
+            align-items: center
+        &__icons
+            width: auto
+            // flex-direction: column
+            margin-top: 38px
+        &__icon
+            margin-bottom: 38px 
+
+    // BUTTON
+    .button
+        &__main
+            width: 250px
+            font-size: 16px
+        &_submit
+            height: 50px
+        &__form
+            &--mini
+                width: 238px
+                font-size: 14px
+    
+    .header
+        &__contacts
+            &__button
+                margin: 0 auto
+                margin-top: 15px
+                height: 40px
+                font-size: 16px
+
+    // ADVANTAGES
+    .advantages
+        padding: 70px 0 20px
+        &__item
+            width: auto
+            &__descr
+                // width: 395px
+                padding: 0 10px;
+    // TITLE
+    .title
+        font-size: 24px
+        &_left
+            text-align: center
+
+    // CONSULTATION
+    .consultation
+        // height: auto
+        &__descr
+            text-align: center
+            br
+                display: none
+    
+    // FORMS
+    .form
+        height: auto
+       
+    .feed-form
+        margin-top: 40px
+        &--mini
+            width: 100%
+            input
+                width: 238px
+
+    // CAROUSEL
+    .carousel
+        padding: 50px 0
+        &__inner
+            width: 300px
+    
+    .slick-dots
+        display: flex
+        justify-content: center
+        margin: 30px 0
+        margin-right: 27px
+        list-style: none
+        z-index: 2
+        li
+            margin: 0 5px
+        button
+            width: 15px
+            height: 15px
+            background: $red
+            border-style: none
+            border-radius: 50%
+            bottom: 0
+            padding: 0
+            font-size: 0
+            color: transparent
+            opacity: .5 
+            &:focus
+                outline: 0 
+    
+    .slick-active 
+        button
+            opacity: 1
+         
+    // CATALOG
+    .catalog 
+        &__tabs
+            flex-direction: column
+        &__content
+            justify-content: center
+    
+    // REVIEWS
+    .reviews
+        padding-bottom: 50px
+
+    // FOOTER
+    .footer
+        &__info
+            position: static
+            transform: none
+            width: 100%
+        &__addr
+            font-size: 16px
+        &__phone
+            font-size: 16px
+
+    // MODAL
+    .modal
+        top: 60%
+        width: 288px
+        padding: 38px 25px 
+        &__close
+            right: 8px
+            top: 8px
+        &__subtitle
+            font-size: 16px
+        label.error
+            font-size: 14px
+
+    // SCROLL-UP
+    .arrow-up
+        right: 15px
+
+
+@media (max-width: 736px) and (orientation: landscape)  
+    // MODAL
+    .modal
+        top: 85%
+
+@media (max-width: 720px) and (orientation: landscape)  
+    // MODAL
+    .modal
+        top: 100% //80%
