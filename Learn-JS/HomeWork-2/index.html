@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Курс валют</title>
+</head>
+<body>
+    <section class="exchange_rates">
+       <div class="exchange_rates_wrapper">
+           <div class="exchange_rates_box">
+                <p class="title">Курс валют</p>
+                <div class="exchange_rates_describe">
+                    <div class="exchange_rates_title">
+                        <p class="exchange_rates_name">Валюта</p>
+                        <div>USD</div>
+                        <div>EUR</div>
+                        <div>RUR</div>
+                    </div>
+                    <div class="exchange_rates_buy">
+                        <p class="exchange_rates_name">Покупка</p>
+                        <div id="buyUSD">USD</div>
+                        <div id="buyEUR">EUR</div>
+                        <div id="buyRUR">RUR</div>
+                    </div>
+                    <div class="exchange_rates_sale">
+                        <p class="exchange_rates_name">Продажа</p>
+                        <div id="saleUSD">USD</div>
+                        <div id="saleEUR">EUR</div>
+                        <div id="saleRUR">RUR</div>
+                    </div>
+                </div>
+
+                <div class="exchange_rates_input_wrapper">
+                    <div class="exchange_rates_input_box">
+                        <select class="exchange_rates_select" id="currency">
+                            <option>USD</option>
+                            <option>EUR</option>
+                            <option>RUR</option>
+                        </select>
+                        <input class="exchange_rates_input--input" type="text" id="input-value">
+                    </div>
+                </div>
+                <div class="exchange_rates_input--result" id="result"></div>
+                <div class="exchange_rates_btn">
+                    <button class="exchange_rates_btn--buy" id="btnBuy">Купить</button>
+                    <button class="exchange_rates_btn--sale" id="btnSale">Продать</button>    
+                </div>
+           </div>
+       </div>
+    </section> 
+    <!-- exchange_rates -->
+
+    <script src="js/main.js"></script>
+</body>
+</html>
